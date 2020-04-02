@@ -9,7 +9,7 @@ class EmailAddressParser
   #only store unique emails
   attr_accessor :email
   
-  def intialize(email)
+  def initialize(email)
     @email = email
   end
   
