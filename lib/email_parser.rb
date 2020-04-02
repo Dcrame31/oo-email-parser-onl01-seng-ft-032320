@@ -14,6 +14,6 @@ class EmailAddressParser
   end
   
   def parse(email)
-    
+    .join(", ")
   end
 end
