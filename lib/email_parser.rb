@@ -9,5 +9,6 @@ class EmailAddressParser
   #only store unique emails
   
   def intialize(emails)
+    
   end
 end
