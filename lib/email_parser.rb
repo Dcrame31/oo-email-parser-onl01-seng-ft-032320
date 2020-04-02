@@ -8,8 +8,6 @@ class EmailAddressParser
   #emails must be separated by commas
   #only store unique emails
   attr_accessor :email
-  
-  attr_accessor :email
 
   def initialize(email_address)
     @email = email_address
