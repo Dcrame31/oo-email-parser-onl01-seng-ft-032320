@@ -9,11 +9,10 @@ class EmailAddressParser
   #only store unique emails
   attr_accessor :email
   
-  def initialize(email)
-    @email = email
-  end
-  
-  def parse(email)
-    .join(", ")
+  attr_accessor :email
+
+  def initialize(email_address)
+    @email = email_address
+    puts email
   end
 end
